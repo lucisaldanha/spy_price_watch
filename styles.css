@@ -1,4 +1,12 @@
-
+body {
+	margin: 0 auto;
+}
+h1,h2, h3, {
+	text-align: center;
+}
+img {
+	width: 100%;
+}
 .btn {
 	color: #eedcdc;
 	background-color: #6d66a2;
@@ -7,26 +15,25 @@
 	padding: 5px;
 	font-size: 0.8em;
 }
-body {
-	margin: 0 auto;
-}
+
 
 /*layout*/
 
 header {
 	background: #241f1feb;
 	color: #c8a1a1;
-	padding: 1em;
+/*	padding: 0.1em;
+*/	text-align: center;
 }
 
 section {
-	padding: 45px 0;
+	padding: 45px 0; /* the padding makes spacing top and bottom to look nice*/
 }
 .container {
-	width: 50%;
-	margin:0 auto;
+	width: 70%;
+	margin:0 auto; /* makes containters to be centered*/
 	border: 2px solid magenta;
-	padding: 15px;
+	padding: 0 15px;
 }
 .section-two {
 	color: #eedcdc;
