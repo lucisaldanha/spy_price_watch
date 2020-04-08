@@ -1,0 +1,34 @@
+
+.btn {
+	color: #eedcdc;
+	background-color: #6d66a2;
+	text-decoration: none;
+	border-radius: 3px;
+	padding: 5px;
+	font-size: 0.8em;
+}
+body {
+	margin: 0 auto;
+}
+
+/*layout*/
+
+header {
+	background: #241f1feb;
+	color: #c8a1a1;
+	padding: 1em;
+}
+
+section {
+	padding: 45px 0;
+}
+.container {
+	width: 50%;
+	margin:0 auto;
+	border: 2px solid magenta;
+	padding: 15px;
+}
+.section-two {
+	color: #eedcdc;
+	background: #241f1feb;
+}
