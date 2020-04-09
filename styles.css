@@ -1,7 +1,7 @@
 body {
 	margin: 0 auto;
 }
-h1,h2, h3, {
+h1,h2, h3 {
 	text-align: center;
 }
 img {
@@ -33,7 +33,7 @@ section {
 	width: 70%;
 	margin:0 auto; /* makes containters to be centered*/
 	border: 2px solid magenta;
-	padding: 0 15px;
+	padding: 15px 15px;
 }
 .section-two {
 	color: #eedcdc;
