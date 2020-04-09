@@ -1,24 +1,48 @@
 body {
-	margin: 0 auto;
+	margin: 0;
+	font-size: 18px;
+	font-family: 'Merriweather', serif;
+	color: #4f4f53;
 }
+
 h1,h2, h3 {
 	text-align: center;
+	color: #c68282;
+}
+h1 {
+	font-size: 42px;
+}
+h2 {
+	font-size: 28px;
+}
+h3 {
+	font-size: 24px;
 }
 
 /* containter that is parent of img element. Containter is center and 
 with a specified size. */
 .imgBlock {
 	width: 80%;
-	margin: 0 auto;
+	margin: 0 auto; /* centered div element inside containter */
+}
+img {
+	width: 100%; /* it will fit entirely its container */
 }
 
-img {
-	width: 100%;
+a {
+	color:#4f4f53;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
 }
+a:hover, a:focus {
+	color: #c68282;
+	font-size: 105%;
+}
+/* button links*/
 .btn {
+	display: inline-block;
 	color: #eedcdc;
 	background-color: #6d66a2;
-	text-decoration: none;
 	border-radius: 3px;
 	padding: 5px;
 	font-size: 0.8em;
