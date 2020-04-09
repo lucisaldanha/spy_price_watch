@@ -32,10 +32,16 @@ section {
 .container {
 	width: 70%;
 	margin:0 auto; /* makes containters to be centered*/
-	border: 2px solid magenta;
+	border: 2px solid magenta; /* don't forget to take this out later */
 	padding: 15px 15px;
 }
 .section-two {
 	color: #eedcdc;
 	background: #241f1feb;
+}
+/* containter that is parent of img element. Containter is center and 
+with a specified size. */
+.imgBlock {
+	width: 80%;
+	margin: 0 auto;
 }
