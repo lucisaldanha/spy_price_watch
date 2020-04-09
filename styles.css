@@ -4,6 +4,14 @@ body {
 h1,h2, h3 {
 	text-align: center;
 }
+
+/* containter that is parent of img element. Containter is center and 
+with a specified size. */
+.imgBlock {
+	width: 80%;
+	margin: 0 auto;
+}
+
 img {
 	width: 100%;
 }
@@ -38,10 +46,4 @@ section {
 .section-two {
 	color: #eedcdc;
 	background: #241f1feb;
-}
-/* containter that is parent of img element. Containter is center and 
-with a specified size. */
-.imgBlock {
-	width: 80%;
-	margin: 0 auto;
 }
