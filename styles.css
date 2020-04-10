@@ -45,12 +45,11 @@ a:hover, a:focus {
 .btn {
 	display: inline-block;
 	color: #eedcdc;
-	background-color: #6d66a2;
-	border-radius: 3px;
-	padding: 5px;
-	font-size: 0.9rem;
+	background-color: #534848;
+	border-radius: 0.18em; /*relative to the font-size of own element*/
+	padding: 0.45em; /*relative to the font-size of own element, when setting other properties*/
+	font-size: 0.9rem; /* relative to parent which we let for root element*/
 }
-
 
 /*layout*/
 
