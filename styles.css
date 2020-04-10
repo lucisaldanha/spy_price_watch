@@ -1,6 +1,8 @@
+html {
+	font-size: 16px;
+}
 body {
 	margin: 0;
-	font-size: 18px;
 	font-family: 'Merriweather', serif;
 	color: #4f4f53;
 }
@@ -10,13 +12,13 @@ h1,h2, h3 {
 	color: #c68282;
 }
 h1 {
-	font-size: 42px;
+	font-size: 2.3rem;
 }
 h2 {
-	font-size: 28px;
+	font-size: 1.6rem;
 }
 h3 {
-	font-size: 24px;
+	font-size: 1.4rem;
 }
 
 /* containter that is parent of img element. Containter is center and 
@@ -32,7 +34,7 @@ img {
 a {
 	color:#4f4f53;
 	text-decoration: none;
-	transition: all 0.3s ease-in-out;
+	transition: all 0.4s ease-in-out;
 }
 a:hover, a:focus {
 	color: #c68282;
@@ -45,7 +47,7 @@ a:hover, a:focus {
 	background-color: #6d66a2;
 	border-radius: 3px;
 	padding: 5px;
-	font-size: 0.8em;
+	font-size: 0.9rem;
 }
 
 
@@ -62,12 +64,16 @@ section {
 	padding: 45px 0; /* the padding makes spacing top and bottom to look nice*/
 }
 .container {
-	width: 70%;
+	width: 80%;
+	max-width: 820px;
 	margin:0 auto; /* makes containters to be centered*/
-	border: 2px solid magenta; /* don't forget to take this out later */
+	/*border: 2px solid magenta;*/ /* don't forget to take this out later */
 	padding: 15px 15px;
 }
 .section-two {
 	color: #eedcdc;
 	background: #241f1feb;
+}
+.push-left {
+	text-align: start;
 }
